@@ -1,0 +1,52 @@
+
+
+#canva_container {
+    display: grid;
+    width: 600px;
+    height: 400px;
+    background-color: #e0e0e0;
+    border:#222020 solid ;
+    margin: auto;  
+}
+  
+
+.pixel {
+    border:#616161fc solid thin;
+    
+}
+
+
+#color_picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+#size_picker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.colorB {
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+.hover{
+    background-color: crimson;
+}
